@@ -3,19 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SHL Assessment Recommender</title>
+  <title>SHL AI Assessment Recommender</title>
+
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
+
 <body>
+
   <div class="app">
-    <header><h1>SHL AI Assessment Recommender</h1></header>
+
+    <header>
+      <h1>SHL AI Assessment Recommender</h1>
+    </header>
+
     <main id="chat-window"></main>
+
     <div id="loader" class="loader hidden"></div>
-    <footer>
-      <input id="message" placeholder="Describe the hiring requirement..." />
+
+    <footer class="chat-footer">
+      <input
+        id="message"
+        placeholder="Describe the hiring requirement..."
+      />
+
       <button id="send">Send</button>
     </footer>
+
   </div>
+
+  <footer class="footer">
+    SHL AI Assessment Recommender | Developed by Om Dhormare • Hosted on Render
+  </footer>
+
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
 </body>
 </html>
