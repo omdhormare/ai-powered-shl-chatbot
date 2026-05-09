@@ -1,0 +1,62 @@
+[
+  {
+    "id": "A1",
+    "name": "Verify G+ General Ability",
+    "url": "https://www.shl.com/solutions/products/verify-g-plus/",
+    "duration_minutes": 36,
+    "remote_testing": true,
+    "adaptive": true,
+    "job_levels": ["entry", "mid", "manager"],
+    "skills": ["problem-solving", "numerical", "logical", "learning agility"],
+    "description": "Measures cognitive ability for roles requiring analytical reasoning.",
+    "keywords": ["aptitude", "general ability", "reasoning", "cognitive", "gma"]
+  },
+  {
+    "id": "A2",
+    "name": "Occupational Personality Questionnaire (OPQ)",
+    "url": "https://www.shl.com/solutions/products/opq/",
+    "duration_minutes": 25,
+    "remote_testing": true,
+    "adaptive": false,
+    "job_levels": ["mid", "manager", "senior"],
+    "skills": ["leadership", "teamwork", "communication", "culture fit"],
+    "description": "Assesses behavioral style and workplace preferences.",
+    "keywords": ["personality", "behavior", "culture", "team", "fit"]
+  },
+  {
+    "id": "A3",
+    "name": "Coding Simulation (JavaScript/Python)",
+    "url": "https://www.shl.com/solutions/products/coding-simulation/",
+    "duration_minutes": 45,
+    "remote_testing": true,
+    "adaptive": false,
+    "job_levels": ["entry", "mid", "senior"],
+    "skills": ["programming", "debugging", "algorithms", "code quality"],
+    "description": "Hands-on coding assessment for software engineers.",
+    "keywords": ["developer", "coding", "software", "python", "javascript"]
+  },
+  {
+    "id": "A4",
+    "name": "Situational Judgement Test (SJT)",
+    "url": "https://www.shl.com/solutions/products/situational-judgement-test/",
+    "duration_minutes": 20,
+    "remote_testing": true,
+    "adaptive": false,
+    "job_levels": ["entry", "mid", "manager"],
+    "skills": ["decision making", "customer focus", "ethics", "judgement"],
+    "description": "Evaluates practical decisions in realistic workplace scenarios.",
+    "keywords": ["sjt", "decision", "scenario", "judgement", "behavioral"]
+  },
+  {
+    "id": "A5",
+    "name": "Sales & Service Assessment",
+    "url": "https://www.shl.com/solutions/products/sales-and-service/",
+    "duration_minutes": 30,
+    "remote_testing": true,
+    "adaptive": true,
+    "job_levels": ["entry", "mid"],
+    "skills": ["sales", "persuasion", "customer service", "resilience"],
+    "description": "Predicts success in client-facing and sales roles.",
+    "keywords": ["sales", "service", "customer", "retail", "inside sales"]
+  }
+]
