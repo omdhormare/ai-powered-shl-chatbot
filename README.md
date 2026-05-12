@@ -27,6 +27,7 @@ ai-powered-shl-chatbot/
 ├── requirements.txt
 ├── render.yaml
 ├── run.py
+├── wsgi.py
 └── README.md
 ```
 
@@ -38,6 +39,7 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python run.py
+# production entry: gunicorn wsgi:app
 ```
 Open: `http://127.0.0.1:5000`
 

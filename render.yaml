@@ -3,5 +3,6 @@ services:
     name: shl-ai-chatbot
     env: python
     buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wsgi:app
     startCommand: gunicorn run:app
     plan: free
